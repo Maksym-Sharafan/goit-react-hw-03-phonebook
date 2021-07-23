@@ -1,0 +1,24 @@
+.contactList {
+  padding-left: 0;
+  padding: 15px;
+  background-color: slateblue;
+  width: 400px;
+}
+
+.contactList__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  font-size: 20px;
+  border: 1px solid slategray;
+}
+
+.contactList__button {
+  padding: 10px;
+}
+
+.contactList__button:hover {
+  background-color: rgb(201, 5, 5);
+}

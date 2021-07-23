@@ -1,0 +1,38 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 400px;
+  background-color: rgb(255, 206, 44);
+}
+
+.label__form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.contact__input {
+  display: block;
+  width: 350px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.button__submit {
+  width: 200px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: rgb(39, 120, 243);
+}
+
+.button__submit:hover {
+  background-color: rgb(221, 62, 62);
+}
